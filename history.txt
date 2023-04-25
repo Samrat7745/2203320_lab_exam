@@ -121,3 +121,15 @@
   121  git add .
   122  git commit -m "final save"
   123  history >> history.txt
+  124  git add .
+  125  git commit -m "final 2 save"
+  126  git push origin main
+  127  mkdir code
+  128  mv *.sh code/
+  129  ls
+  130  mkdir data
+  131  mv *.csv data/
+  132  git add .
+  133  git commit -m "final 3 save"
+  134  git push origin main
+  135  history > history.txt
