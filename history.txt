@@ -1,0 +1,123 @@
+    1  ssh-keygen rsa 'samratacharyamoon07@gmail.com'
+    2  ssh-keygen -t rsa -C 'samratacharyamoon07@gmail.com'
+    3  cat ~/.ssh/id_rsa.pub 
+    4  git config --global core.autocrlf input
+    5  git config --global core.autocrlf input
+    6  git config --global core.safecrlf true
+    7  git branch --show-current
+    8  ls
+    9  ls -al
+   10  mkdir git-repo
+   11  cd git-repo/
+   12  git init
+   13  git branch --show-current
+   14  git rev-parse --abbrev-ref HEAD
+   15  git pull git@github.com:Samrat7745/cs-102-git-essentials.git
+   16  ls
+   17  nano cs-102-imp.txt 
+   18  git add cs-102-imp.txt
+   19  git status
+   20  git commit -m 'testing commit'
+   21  status
+   22  git push origin main
+   23  git push origin
+   24  git push main
+   25  git push main master
+   26  git push git@github.com:Samrat7745/cs-102-git-essentials.git
+   27  git push origin main
+   28  git push origin master 
+   29  git clone git@github.com:Samrat7745/cs-102-git-essentials.git
+   30  ls
+   31  cd cs-102-git-essentials/
+   32  nano cs-102-imp.txt 
+   33  git add .
+   34  git commit -m 'testing commit'
+   35  git push origin main
+   36  logout
+   37  git
+   38  git config --global user.name 'Samrat'
+   39  git config --global user.email 'samratacharyamoon07@gmail.com'
+   40  ls
+   41  ls -al
+   42  git clone git@github.com:Samrat7745/2203320_lab_exam.git
+   43  ls
+   44  cd 2203320_lab_exam/
+   45  git pull https://github.com/tusharlone/cs102-git-essentials.git
+   46  ls
+   47  cd ..
+   48  git pull https://github.com/tusharlone/cs102-git-essentials.git
+   49  git pull git@github.com:tusharlone/cs102-git-essentials.git
+   50  cd pull origin main git@github.com:tusharlone/cs102-git-essentials.git
+   51  cd pull origin git@github.com:tusharlone/cs102-git-essentials.git
+   52  git pull git@github.com:tusharlone/cs102-git-essentials.git
+   53  cd 2203320_lab_exam/
+   54  ls
+   55  git clone git@github.com:tusharlone/cs102-git-essentials.git
+   56  ls
+   57  cd cs102-git-essentials/
+   58  ls
+   59  cd..
+   60  cd ..
+   61  rm -r cs102-git-essentials/
+   62  ls
+   63  cd cs102-git-essentials/ 
+   64  ls
+   65  ls -al
+   66  cd ..
+   67  rm -r cs102-git-essentials/
+   68  ls
+   69  cd ..
+   70  cd
+   71  ls
+   72  git clone git@github.com:tusharlone/cs102-git-essentials.git
+   73  ls
+   74  cd cs102-git-essentials/
+   75  ls
+   76  ls -al
+   77  mv ca_500.csv, us_500.csv ~/2203320_lab_exam/
+   78  ls
+   79  mv ca_500.csv ~/2203320_lab_exam/
+   80  ls
+   81  cd ..
+   82  cd cs102-git-essentials/
+   83  ls
+   84  cd ..
+   85  cd 2203320_lab_exam/
+   86  ls
+   87  cat ca_500.csv 
+   88  wc -l ca_500.csv 
+   89  ls
+   90  head -n 1 ca_500.csv
+   91  head -n 1 us_500.csv
+   92  grep -iw 'Montreal' ca_500.csv 
+   93* 
+   94  ls
+   95  cat ca_city_Montreal.csv 
+   96  rm ca_city_Montreal.csv 
+   97  head -n 1 ca_500.csv >> ca_city_Montreal.csv
+   98  grep -iw 'Montreal' ca_500.csv >> ca_city_Montreal.csv 
+   99  cat ca_city_Montreal.csv 
+  100  ls
+  101* 
+  102  vim 2203320_data_filter.sh 
+  103  wc -l us_500.csv 
+  104  vim 2203320_data_filter.sh 
+  105  find ~/. -name 'ca_500.csv'
+  106  vim 2203320_data_filter.sh 
+  107  2203320_data_filter.sh us_500.csv city Miami
+  108  ls
+  109  vim 2203320_data_filter.sh 
+  110  2203320_data_filter.sh us_500.csv city Miami
+  111  bash 2203320_data_filter.sh us_500.csv city Miami
+  112  ls
+  113  bash 2203320_data_filter.sh
+  114  vim 2203320_data_filter.sh 
+  115  bash 2203320_data_filter.sh us_500.csv city miami
+  116  vim 2203320_data_filter.sh 
+  117  bash 2203320_data_filter.sh us_500.csv city miami
+  118  vim 2203320_data_filter.sh 
+  119  bash 2203320_data_filter.sh us_500.csv city miami
+  120  ls
+  121  git add .
+  122  git commit -m "final save"
+  123  history >> history.txt
